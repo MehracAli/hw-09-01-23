@@ -7,10 +7,17 @@
     text-decoration: none;
     color: white;
 }
+.btn-outline-success:hover{
+    background-color:#ffc5c6!important;
+    border: solid #fb8b8d !important;
+}
 section .container{
     padding-top: 75px;
     padding-bottom: 75px;
     border-top: solid 1px rgb(220, 220, 220);
+}
+.learn-more:hover{
+    background-color: #ffc5c6!important;
 }
 footer .container{
     padding-top: 75px;
