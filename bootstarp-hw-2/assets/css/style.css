@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.dropdwn{
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.drop:hover .dropdwn{
+    display: block;
+}
 .carousel-item a{
     text-decoration: none;
     color: white;
